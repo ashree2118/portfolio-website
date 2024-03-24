@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+   </header> 
+   <main>
+        <section class="firstsection">
+            <div class="leftsection">
+            Hi, My name is <span class="orange">Anushree</span>
+                <div>I am a Graphic designer and </div>
+                
+                <span id="element"></span>
+            <div><a href="#" class="btn">Resume</a></div>
+            </div>
+            <div class="rightsection"></div>
+            <img src="Untitled design (1).png" alt="">
+            
+        </section>
+   </main>
+   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+   <script>
+     var typed = new Typed('#element', {
+       strings: ['Web Developer.',],
+       typeSpeed: 50,
+     });
+   </script>
+
+   <!------page 2------------>
+   <div class="service section">
+        <div class="title">
+            <h2>My Skills</h2>
+        </div>
+        <div class="box">
+            <div class="cards">
+                <img src="working (2).png" alt="">
+                <h4>Web Development</h4>
+                <div class="pra">
+                    <p>The process of building and maintaining websites and web applications. It involves designing and coding the visual layout, interactive features, and underlying functionality that enable users to access and interact with content online.</p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="digital-art.png" alt="">
+                <h4>Graphic Designing</h4>
+                <div class="pra">
+                    <p>The art of creating visual content to communicate messages, ideas, and information. It uses typography, imagery, color, and layout techniques to produce designs for various mediums such as print, digital, and multimedia platforms.</p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="code.png" alt="">
+                <h4>C++</h4>
+                <div class="pra">
+                    <p>A programming language used for developing a wide range of software applications. C++ is widely used in industries such as game development, system programming, and embedded systems.</p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+   </div>
+
+   <!------page3------->
+
+   <div class="Contact">
+        <p>Let me design a beautiful website for you.</p>
+        <a class="button2" href="#">Hire me</a>
+   </div>
+
+   <!-----footer-->
+
+   <footer>
+        <p>Anushree</p>
+        <p>Contact me for work related queries and collaborations.</p>
+        <div class="social">
+            <img src="facebook.png" alt="">
+            <img src="instagram.png" alt="">
+            <img src="twitter.png" alt="">
+        </div>
+        <div class="end"><p>Thank You for visiting.</p></div>
+   </footer>
+</body>
+</html>

@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: rgb(14, 14, 14);
+    color: rgb(208, 207, 207);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(33, 33, 33);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(175, 173, 173);
+}
+nav ul li a:hover{
+    color: chocolate;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+.firstsection img{
+    width: 30%;
+    height: 30%;
+    margin: 30px 30px;
+    align-items: center;
+}
+.leftsection .btn{
+    color: rgb(222, 221, 117);
+    padding: 5px 15px;
+    border-radius: 9px;
+    border-color: black;
+    border: 2px solid rgb(236, 216, 106);
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 15px;
+    margin : 50px 0;
+}
+.leftsection .btn:hover{
+    color: rgb(5, 5, 5);
+    background-color: rgb(236, 222, 67);
+}
+.leftsection{
+    color: rgb(175, 173, 173);
+    font-size: 2.5rem;
+    margin: 90px;
+   
+}
+.orange{
+    color: rgba(235, 106, 14, 0.879);
+}
+#element{
+    color: rgba(235, 106, 14, 0.879);
+}
+.service{
+    background-color: black;
+    width: 100%;
+    padding: 100px 0;
+}
+.title h2{
+    color: aliceblue;
+    width: 1130px;
+    font-size: 75px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.cards{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: rgb(31, 30, 30);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+h4{
+    font-size: 25px;
+    color: rgb(226, 100, 16);
+    margin-bottom: 15px;
+}
+.pra p{
+    color: rgb(251, 251, 251);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    
+}
+.cards .button{
+    background-color: rgb(229, 108, 48);
+    color: rgb(9, 9, 9);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+    
+}
+.cards .button:hover{
+    background-color: transparent;
+    color: chocolate;
+}
+.Contact{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(13, 13, 13);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.Contact p{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.Contact a{
+    background-color: rgb(229, 108, 48);
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.Contact a:hover{
+    background-color: transparent;
+    color: chocolate;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 40px;
+    color: rgb(255, 109, 5);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 20px;
+    width: 700px;
+    line-height: 26px;
+    text-align: center;
+}
+.social{
+    height: 60px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .end p{
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 17px; 
+    display: flex;
+    color: rgb(99, 98, 98);
+}
