@@ -37,18 +37,15 @@ nav ul li a:hover{
     font-size: 1.5rem;
 }
 .firstsection {
+    
     display: flex;
     justify-content: space-around;
     margin: 50px 0;
 }
-.firstsection img{
-    width: 30%;
-    height: 30%;
-    margin: 30px 30px;
-    align-items: center;
-}
-.leftsection .btn{
-    color: rgb(222, 221, 117);
+
+
+.leftsection .resumebutton{
+    
     padding: 5px 15px;
     border-radius: 9px;
     border-color: black;
@@ -57,10 +54,13 @@ nav ul li a:hover{
     transition: 0.5s;
     font-size: 15px;
     margin : 50px 0;
-}
-.leftsection .btn:hover{
+    
     color: rgb(5, 5, 5);
     background-color: rgb(236, 222, 67);
+}
+.leftsection .resumebutton:hover{
+    background-color: black;
+    color: azure;
 }
 .leftsection{
     color: rgb(175, 173, 173);
