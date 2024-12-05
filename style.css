@@ -1,53 +1,64 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 
-body{
+body {
     background-color: rgb(14, 14, 14);
     color: rgb(208, 207, 207);
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-nav{
+
+nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 80px;
     background-color: rgb(33, 33, 33);
 }
-nav ul{
+
+nav ul {
     display: flex;
     justify-content: center;
+    margin-right: 135px;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     margin: 0 23px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: rgb(175, 173, 173);
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: chocolate;
 }
-.left{
+
+.left {
     font-size: 1.5rem;
+    margin-left: 135px;
+    margin-top: 10px;
 }
+
 .firstsection {
-    
+
     display: flex;
     justify-content: space-around;
     margin: 50px 0;
 }
 
-.firstsection img{
+.firstsection img {
     margin: 100px;
 }
-.leftsection .resumebutton{
-    
+
+.leftsection .resumebutton {
+
     padding: 5px 15px;
     border-radius: 9px;
     border-color: black;
@@ -55,23 +66,26 @@ nav ul li a:hover{
     text-decoration: none;
     transition: 0.5s;
     font-size: 15px;
-    margin : 50px 0;
-    
+    margin: 50px 0;
+
     color: rgb(5, 5, 5);
-    background-color: rgb(236, 222, 67);
+    background-color: #ecde43;
 }
-.leftsection .resumebutton:hover{
+
+.leftsection .resumebutton:hover {
     background-color: black;
     color: azure;
 }
-.leftsection{
+
+.leftsection {
     color: rgb(175, 173, 173);
     font-size: 2.5rem;
     margin: 90px;
-  
+
 
 
 }
+
 .about-section {
     background-color: rgb(33, 33, 33);
     color: white;
@@ -80,7 +94,7 @@ nav ul li a:hover{
 }
 
 .about-section h2 {
-    font-size:75px ;
+    font-size: 75px;
     color: rgb(255, 255, 255);
     margin-bottom: 70px;
 }
@@ -94,8 +108,8 @@ nav ul li a:hover{
 }
 
 .about-image {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid rgb(255, 255, 255);
@@ -108,32 +122,36 @@ nav ul li a:hover{
     text-align: left;
 }
 
-.orange{
+.orange {
     color: rgb(244, 181, 45);
 }
-#element{
+
+#element {
     color: rgb(244, 181, 45);
 }
-.service{
+
+.service {
     background-color: black;
     width: 100%;
     padding: 100px 0;
 }
 
-.title h2{
+.title h2 {
     color: aliceblue;
     width: 1130px;
     font-size: 75px;
     margin: 30px auto;
     text-align: center;
 }
-.box{
+
+.box {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 400px;
 }
-.cards{
+
+.cards {
     height: 365px;
     width: 335px;
     padding: 20px 35px;
@@ -144,19 +162,22 @@ nav ul li a:hover{
     overflow: hidden;
     text-align: center;
 }
-h4{
+
+h4 {
     font-size: 25px;
     color: rgb(244, 181, 45);
     margin-bottom: 15px;
 }
-.pra p{
+
+.pra p {
     color: rgb(251, 251, 251);
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
-    
+
 }
-.cards .button{
+
+.cards .button {
     background-color: rgb(244, 181, 45);
     color: rgb(9, 9, 9);
     text-decoration: none;
@@ -165,13 +186,15 @@ h4{
     padding: 9px 22px;
     border-radius: 30px;
     transition: .4s;
-    
+
 }
-.cards .button:hover{
+
+.cards .button:hover {
     background-color: transparent;
     color: rgb(244, 181, 45);
 }
-.Contact{
+
+.Contact {
     width: 100%;
     height: 400px;
     background-color: rgb(13, 13, 13);
@@ -180,14 +203,16 @@ h4{
     flex-direction: column;
     justify-content: center;
 }
-.Contact p{
+
+.Contact p {
     color: white;
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 25px;
     text-align: center;
 }
-.Contact a{
+
+.Contact a {
     background-color: rgb(244, 181, 45);
     color: rgb(7, 7, 7);
     text-decoration: none;
@@ -197,11 +222,13 @@ h4{
     border-radius: 30px;
     transition: .4s;
 }
-.Contact a:hover{
+
+.Contact a:hover {
     background-color: transparent;
     color: rgb(244, 181, 45);
 }
-footer{
+
+footer {
     position: relative;
     width: 100%;
     height: 400px;
@@ -210,47 +237,83 @@ footer{
     align-items: center;
     justify-content: center;
 }
-footer p:nth-child(1){
+
+footer p:nth-child(1) {
     font-size: 40px;
     color: rgb(244, 181, 45);
     margin-bottom: 20px;
     font-weight: bold;
 }
-footer p:nth-child(2){
+
+footer p:nth-child(2) {
     color: white;
     font-size: 20px;
     width: 700px;
     line-height: 26px;
     text-align: center;
 }
-.social{
-    height: 60px;
-    width: 45px;
+
+.social {
+    margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-.social img{
-    padding: 5px;
+
+.social img {
+    padding: 10px;
+    height: 40px;
+    width: 40px;
 }
-footer .end p{
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(17, 17, 17);
+}
+
+.social ul {
+    display: flex;
+    justify-content: center;
+}
+
+.social ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+.social ul li a {
+    text-decoration: none;
+    color: rgb(175, 173, 173);
+}
+
+footer .end p {
     height: 200px;
     justify-content: center;
     align-items: center;
     margin: 20px;
-    font-size: 17px; 
+    font-size: 17px;
     display: flex;
     color: rgb(99, 98, 98);
 }
+
+.footer-lower {
+    font-size: 20px;
+    color: rgb(254, 255, 255);
+}
+
 .circle {
     height: 24px;
     width: 24px;
     border-radius: 24px;
     background-color: black;
-    position: fixed; 
+    position: fixed;
     top: 0;
     left: 0;
     pointer-events: none;
-    z-index: 99999999; /* so that it stays on top of all other elements */
-  }
+    z-index: 99999999;
+    /* so that it stays on top of all other elements */
+}
