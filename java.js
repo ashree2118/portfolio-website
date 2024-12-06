@@ -28,25 +28,25 @@ const coords = { x: 0, y: 0 };
 const circles = document.querySelectorAll(".circle");
 
 const colors = [
-    "#d90400",
-     "#d90400", 
-     "#e03400", 
-     "#e74d00",
-     "#e74d00",
-     "#e74d00", 
-     "#ed6300", 
-     "#f27700", 
-     "#f68a00", 
-     "#f99d00", 
-     "#fcaf00",
-     "#fcaf00",
-     "#fcaf00", 
-     "#fec100", 
-     "#ffd200", 
-     "#ffe400", 
-     "#fff521",
-     "#fff521",
-     "#fff521"
+    "#4300bd",
+     "#4300bd", 
+     "#0070ff", 
+     "#0070ff",
+     "#00acea", 
+     "#00acea",
+     "#00ddac", 
+     "#00ddac", 
+     "#4df585", 
+     "#4df585", 
+     "#89f972",
+     "#89f972",
+     "#b8fb63", 
+     "#b8fb63", 
+     "#e3fc5b", 
+     "#e3fc5b", 
+     "#00d4d3",
+     "#00d4d3",
+     "#00d4d3"
   ];
 
 circles.forEach(function (circle, index) {
