@@ -62,14 +62,14 @@ nav ul li a:hover {
     padding: 5px 15px;
     border-radius: 9px;
     border-color: black;
-    border: 2px solid rgb(236, 216, 106);
+    border: 2px solid #DAFF62;
     text-decoration: none;
     transition: 0.5s;
     font-size: 15px;
     margin: 50px 0;
 
     color: rgb(5, 5, 5);
-    background-color: #ecde43;
+    background-color: #DAFF62;
 }
 
 .leftsection .resumebutton:hover {
@@ -87,47 +87,57 @@ nav ul li a:hover {
 }
 
 .about-section {
-    background-color: rgb(33, 33, 33);
-    color: white;
+    background-color: #d0f06a;
+    color: rgb(0, 0, 0);
     padding: 60px 20px;
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
 }
 
 .about-section h2 {
-    font-size: 75px;
-    color: rgb(255, 255, 255);
-    margin-bottom: 70px;
+    font-family: Poppins;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: 93%; /* 59.52px */
+text-transform: capitalize;
+margin: 10px 0;
+color: #000000;
+
 }
 
 .about-content {
-    display: flex;
+    width: 500px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     gap: 150px;
+    margin: auto;
+    margin-left: 180px;
 }
 
 .about-image {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid rgb(255, 255, 255);
+    width: 450px;
+    height: 507px;
+    margin-left: 130px;
 }
 
 .about-content p {
-    font-size: 1.2rem;
-    line-height: 1.8;
-    max-width: 600px;
-    text-align: left;
+    font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 164%; /* 26.24px */
 }
 
+
 .orange {
-    color: rgb(244, 181, 45);
+    color: #DAFF62;
 }
 
 #element {
-    color: rgb(244, 181, 45);
+    color: #DAFF62;
 }
 
 .service {
@@ -165,7 +175,7 @@ nav ul li a:hover {
 
 h4 {
     font-size: 25px;
-    color: rgb(244, 181, 45);
+    color: #DAFF62;
     margin-bottom: 15px;
 }
 
@@ -178,7 +188,7 @@ h4 {
 }
 
 .cards .button {
-    background-color: rgb(244, 181, 45);
+    background-color: #DAFF62;
     color: rgb(9, 9, 9);
     text-decoration: none;
     border: 2px solid transparent;
@@ -191,7 +201,7 @@ h4 {
 
 .cards .button:hover {
     background-color: transparent;
-    color: rgb(244, 181, 45);
+    color: #DAFF62;
 }
 
 .Contact {
@@ -213,7 +223,7 @@ h4 {
 }
 
 .Contact a {
-    background-color: rgb(244, 181, 45);
+    background-color: #DAFF62;
     color: rgb(7, 7, 7);
     text-decoration: none;
     border: 2px solid transparent;
@@ -225,7 +235,7 @@ h4 {
 
 .Contact a:hover {
     background-color: transparent;
-    color: rgb(244, 181, 45);
+    color: #DAFF62;
 }
 
 footer {
@@ -240,7 +250,7 @@ footer {
 
 footer p:nth-child(1) {
     font-size: 40px;
-    color: rgb(244, 181, 45);
+    color: #DAFF62;
     margin-bottom: 20px;
     font-weight: bold;
 }
