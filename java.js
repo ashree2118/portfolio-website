@@ -11,8 +11,8 @@ resumeButton.addEventListener("click", resume);
 // Typed.js animation
 var typed = new Typed('#element', {
     strings: ['Web Developer', 'UI/UX Designer', 'Problem Solver'],
-    typeSpeed: 125,
-    backSpeed: 120,
+    typeSpeed: 100,
+    backSpeed: 50,
     loop: true,
 });
 
