@@ -20,11 +20,13 @@ body {
     transform: translateY(30px);
     transition: opacity 0.6s ease, transform 0.6s ease;
 }
-.hero{
+
+.hero {
     background-image: url('/assets/bg-gradient.jpg');
     background-size: cover;
     background-position: center;
 }
+
 .fade-in.visible {
     opacity: 1;
     transform: translateY(0);
@@ -51,6 +53,8 @@ body {
     opacity: 1;
     transform: translateX(0);
 }
+
+/* FIXED NAVBAR - Completely transparent */
 nav {
     display: flex;
     justify-content: center;
@@ -62,6 +66,8 @@ nav {
     z-index: 1000;
     padding: 0 150px;
     box-sizing: border-box;
+    background-color: transparent;
+    backdrop-filter: none;
 }
 
 .navDiv {
@@ -85,24 +91,6 @@ nav ul {
     margin-left: 0;
     margin-top: 10px;
 }
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    padding: 0 20px;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    margin-right: 135px;
-}
 
 nav ul li {
     list-style: none;
@@ -118,7 +106,8 @@ nav ul li a {
 nav ul li a:hover {
     color: #DAFF62;
 }
-.navContact{
+
+.navContact {
     padding: 15px 30px;
     border-radius: 16px;
     border: 2px solid #DAFF62;
@@ -131,15 +120,18 @@ nav ul li a:hover {
     cursor: pointer;
     font-family: "Poppins", sans-serif;
 }
-.navContact:hover{
+
+.navContact:hover {
     background-color: transparent;
     color: #DAFF62;
     transform: translateY(-2px);
 }
-.navDiv{
+
+.navDiv {
     margin-left: 150px;
     margin-right: 150px;
 }
+
 .left {
     font-size: 1.5rem;
     margin-left: 135px;
@@ -181,11 +173,8 @@ nav ul li a:hover {
     margin: 90px;
     flex: 1;
     font-weight: 600;
+}
 
-}
-.line2{
-    
-}
 .rightsection {
     flex: 1;
     display: flex;
@@ -218,6 +207,7 @@ nav ul li a:hover {
     color: #DAFF62;
     transform: translateY(-2px);
 }
+
 .about-section .resumebutton {
     color: #DAFF62;
     padding: 15px 30px;
@@ -227,16 +217,17 @@ nav ul li a:hover {
     transition: all 0.5s ease;
     font-size: 15px;
     margin: 50px 0;
-
     background-color: #000000;
     cursor: pointer;
     font-family: "Poppins", sans-serif;
 }
+
 .about-section .resumebutton:hover {
     background-color: transparent;
     color: #010101;
     transform: translateY(-2px);
 }
+
 .about-section {
     background-color: #d0f06a;
     color: rgb(0, 0, 0);
@@ -286,8 +277,6 @@ nav ul li a:hover {
     line-height: 164%;
 }
 
-
-
 #element {
     color: #DAFF62;
 }
@@ -296,7 +285,6 @@ nav ul li a:hover {
     background-color: black;
     width: 100%;
     padding: 120px 20px;
-
 }
 
 .title h2 {
@@ -316,27 +304,6 @@ nav ul li a:hover {
     flex-wrap: wrap;
     gap: 20px;
 }
-
-/* .cards {
-    height: 395px;
-    width: 335px;
-    max-width: calc(100% - 40px);
-    padding: 20px 35px;
-    background-color: rgb(31, 30, 30);
-    border-radius: 20px;
-    margin: 15px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-} */
-
-/* .cards:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 30px rgba(218, 255, 98, 0.2);
-} */
-
-/
 
 h4 {
     font-size: 25px;
@@ -621,7 +588,8 @@ footer .end p {
         left: -100%;
         width: 100%;
         height: calc(100vh - 80px);
-        background-color: rgb(33, 33, 33);
+        background-color: rgba(15, 15, 15, 0.95);
+        backdrop-filter: blur(10px);
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
