@@ -22,7 +22,7 @@ body {
 }
 
 .hero {
-    background-image: url('/assets/bg-gradient.jpg');
+    background-image: url('/portfolio website/assets/bg-gradient.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -577,6 +577,12 @@ footer .end p {
     .hamburger {
         display: flex;
     }
+    .navDiv {
+        justify-content: space-between;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 20px;
+    }
     
     nav ul {
         position: fixed;
@@ -612,7 +618,15 @@ footer .end p {
         margin: 20px;
         font-size: 2rem;
     }
-    
+    .leftsection {
+        margin: 20px;
+        font-size: 2rem;
+        min-height: 80px;
+        height: 120px;
+        
+        align-items: center;
+        justify-content: center;
+    }
     .rightsection img {
         width: 250px;
         height: 250px;
@@ -685,7 +699,7 @@ footer .end p {
 
 @media screen and (max-width: 768px) {
     .left {
-        margin-left: 20px;
+        margin-left: 10px;
         font-size: 1.2rem;
     }
     
@@ -695,7 +709,7 @@ footer .end p {
     
     .leftsection {
         font-size: 1.8rem;
-        margin: 20px;
+        margin-top: 55px;
     }
     
     .rightsection img {
@@ -757,7 +771,8 @@ footer .end p {
     
     .leftsection {
         font-size: 1.5rem;
-        margin: 15px;
+        margin-top: 55px;
+        
     }
     
     .rightsection img {
