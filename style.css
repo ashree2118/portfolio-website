@@ -22,7 +22,7 @@ body {
 }
 
 .hero {
-    background-image: url('/portfolio website/assets/bg-gradient.jpg');
+    background-image: url('/assets/bg-gradient.jpg');
     background-size: cover;
     background-position: center;
 }
