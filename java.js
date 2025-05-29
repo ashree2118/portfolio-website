@@ -176,17 +176,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Add navbar background on scroll
-window.addEventListener('scroll', function() {
-    const nav = document.querySelector('nav');
-    if (window.scrollY > 50) {
-        nav.style.backgroundColor = 'rgba(33, 33, 33, 0.95)';
-        nav.style.backdropFilter = 'blur(10px)';
-    } else {
-        nav.style.backgroundColor = 'rgb(33, 33, 33)';
-        nav.style.backdropFilter = 'none';
-    }
-});
+
 
 // Enhanced project cards hover effect
 document.addEventListener('DOMContentLoaded', function() {
