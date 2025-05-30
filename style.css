@@ -610,14 +610,14 @@ footer .end p {
     
     .firstsection {
         flex-direction: column;
+        
+        align-items: center;
+        justify-content: center;
         text-align: center;
         padding: 20px;
     }
     
-    .leftsection {
-        margin: 20px;
-        font-size: 2rem;
-    }
+
     .leftsection {
         margin: 20px;
         font-size: 2rem;
