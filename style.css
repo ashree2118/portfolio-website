@@ -67,7 +67,7 @@ nav {
     height: 80px;
     z-index: 1000;
     background-color: transparent;
-    backdrop-filter: blur(10px);
+    /* By default, no backdrop filter */
     transition: all 0.3s ease;
 }
 
@@ -221,8 +221,8 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 4rem;
-    max-width: 1200px;
+    gap: 6rem;
+    
     margin: 0 auto;
 }
 
@@ -589,7 +589,7 @@ footer p:nth-child(2) {
 /* Large Desktop */
 @media screen and (max-width: 1400px) {
     .firstsection,
-    .about-section,
+    
     .projects-container,
     .tech-stack-container {
         max-width: 1000px;
